@@ -1,4 +1,3 @@
-// Assignment Code
 var upperCaseCharacters=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 var lowerCaseCharacters=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 var numericCharacters=["0","1","2","3","4","5","6","7","8","9"]
@@ -11,7 +10,7 @@ function generatePassword() {
   var finalPassword=[]
   var length = prompt("How long do you want your password to be? Please, input between 8-128");
   console.log(length);
-  if (isNaN(length) || length < 8 || length > 128) { //use =< or => possibly to ensure accuracy to prevent user error
+  if (isNaN(length) || length < 8 || length > 128) { 
     alert("Please format password correctly");
     return;
   }
@@ -46,7 +45,6 @@ console.log(finalPassword)
 return finalPassword.join("")
 
 }
-// Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
@@ -54,5 +52,4 @@ function writePassword() {
   passwordText.value = password;
 }
 
-// Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
