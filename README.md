@@ -16,7 +16,7 @@ This is a randomized password generator application that uses between 8-128 char
     
 ### <u> Deployable Link to Website: </u>
 
-https://myagentortega.github.io/Joseph-S.-Ortega---Porfolio/
+https://myagentortega.github.io/randomizer-tool/
 ### <u> Support:  </u>
 
 - [MDN](https://developer.mozilla.org/en-US/)  
