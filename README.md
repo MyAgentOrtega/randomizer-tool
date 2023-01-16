@@ -9,10 +9,9 @@ This is a randomized password generator application that uses between 8-128 char
 
 
 ### <u> Screenshot: </u>
-![Horiseon Website Screenshot](./Assets/Randomized%20Password%20Generator%20Screenshot.png)
+![Randomizer Website Screenshot](./Assets/Randomized%20Password%20Generator%20Screenshot.png)
 <br /><br />
 
-  
     
 ### <u> Deployable Link to Website: </u>
 
